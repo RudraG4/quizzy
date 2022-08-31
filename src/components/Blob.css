@@ -1,0 +1,21 @@
+.blob {
+  position: absolute;
+  width: 311px;
+  height: 350px;
+}
+
+.blob.blob-right {
+  top: -152px;
+  right: -100px;
+  fill: #fffad1;
+  transform: rotate(-160deg);
+  z-index: -1;
+}
+
+.blob.blob-left {
+  bottom: -152px;
+  left: -100px;
+  fill: #deebf8;
+  transform: rotate(160deg);
+  z-index: -1;
+}
